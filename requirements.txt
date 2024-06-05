@@ -28,7 +28,6 @@ tgcrypto
 yt-dlp==2023.10.13
 pornhub-api==0.3.0
 #git+https://github.com/joetats/youtube_search@master
-#git+https://github.com/alexmercerind/youtube-search-python@main
 gtts
 youtube_search
 youtube-search-python
