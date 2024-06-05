@@ -1,7 +1,7 @@
 {
     "name": "BWFMUSIC",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "repository": "https://github.com/RBWFMUSIC-RJ/BWFMUSIC-musicBot",
+    "repository": "https://github.com/BWFXMUSIC/BWFMUSICSONG",
     "logo": "https://telegra.ph/file/e745fdaf1966f228582dc.jpg",
     "keywords": ["pyrogram", "BWFMUSICmusicbot", "pytgcall"],
     "stack": "container",
@@ -68,12 +68,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Fill the link of your group..",
-        "value": "https://t.me/BWFMUSICBot_OP",
+        "value": "https://t.me/MUSICBOT_OWNER",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Fill the link of channel.",
-        "value": "https://t.me/BWFMUSIC_OP",
+        "value": "https://t.me/BWF_MUSIC1",
         "required": false
       }
 
