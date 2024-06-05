@@ -13,7 +13,7 @@ numpy
 OpsAi
 pillow==9.5.0
 psutil
-py-tgcalls==1.2.9
+git+https://github.com/RRomeoRJ0143/pytgcalls
 ntgcalls==1.1.2
 pykeyboard
 pyrogram==2.0.106
@@ -25,8 +25,9 @@ speedtest-cli
 spotipy
 telegraph
 tgcrypto
+yt-dlp==2023.10.13
+pornhub-api==0.3.0
+#git+https://github.com/joetats/youtube_search@master
 gtts
 youtube_search
 youtube-search-python
-yt-dlp
-git+https://github.com/AsmSafone/SafoneAPI
