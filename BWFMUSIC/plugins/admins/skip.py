@@ -9,7 +9,7 @@ from BWFMUSIC.core.call import rj
 from BWFMUSIC.misc import db
 from BWFMUSIC.utils.database import get_loop
 from BWFMUSIC.utils.decorators import AdminRightsCheck
-from Romeo.utils.romeomusic.rj import command
+from Romeo.utils.bwfmusic.rj import command
 from BWFMUSIC.utils.inline.play import (stream_markup,
                                           telegram_markup,
                                           close_keyboard)
