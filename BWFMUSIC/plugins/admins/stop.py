@@ -7,7 +7,7 @@ from BWFMUSIC import app
 from BWFMUSIC.core.call import rj
 from BWFMUSIC.utils.database import set_loop
 from BWFMUSIC.utils.decorators import AdminRightsCheck
-from BWFMUSIC.utils.BWFMUSICmusic.rj import command
+from BWFMUSIC.utils.romeomusic.rj import command
 from BWFMUSIC.utils.inline.play import close_keyboard
 
 # Commands
