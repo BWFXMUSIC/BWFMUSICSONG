@@ -167,7 +167,7 @@ HELP_11 = """😅**<u> started with bot</u>**
 
 /settings - Get a complete group's settings with inline buttons.
 
-/sudolist - Check Sudo Users of BWFMUSICmusicBot"""
+/sudolist - Check Sudo Users of romeomusicBot"""
 
 HELP_12 = """👤**<u>GBAN FUNCTION:</u>**
 

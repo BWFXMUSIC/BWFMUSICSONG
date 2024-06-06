@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from BWFMUSIC.utils.BWFMUSICmusic.rj import command
+from BWFMUSIC.utils.romeomusic.rj import command
 from BWFMUSIC import app
 from BWFMUSIC.core.call import rj
 from BWFMUSIC.utils.database import is_muted, mute_off
