@@ -1,4 +1,4 @@
-from BWFMUSIC.core.bot import BWFMUSICBot
+from BWFMUSIC.core.bot import romeomusic
 from BWFMUSIC.core.dir import dirr
 from BWFMUSIC.core.git import git
 from BWFMUSIC.core.userbot import Userbot
@@ -15,7 +15,7 @@ dbb()
 heroku()
 
 # Clients
-app = BWFMUSICBot()
+app = romeomusic()
 
 userbot = Userbot()
 

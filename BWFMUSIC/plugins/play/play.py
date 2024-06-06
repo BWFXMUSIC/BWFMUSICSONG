@@ -18,7 +18,7 @@ from BWFMUSIC.utils.channelplay import get_channeplayCB
 from BWFMUSIC.utils.database import is_video_allowed
 from BWFMUSIC.utils.decorators.language import languageCB
 from BWFMUSIC.utils.decorators.play import PlayWrapper
-from BWFMUSIC.utils.bwfmusicbot.rj import command
+from BWFMUSIC.utils.romeomusic.rj import command
 from BWFMUSIC.utils.formatters import formats
 from BWFMUSIC.utils.inline.play import (livestream_markup,
                                           playlist_markup,
@@ -226,7 +226,7 @@ async def play_commnd(
                 and not config.SPOTIFY_CLIENT_SECRET
             ):
                 return await mystic.edit_text(
-                    "𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐂𝐚𝐧'𝐭 𝐏𝐥𝐚𝐲 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 𝐓𝐫𝐜𝐤𝐬 𝐨𝐫 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭𝐬 𝐑𝐞𝐩𝐨𝐫𝐭 [BWFMUSIC SUPPORT](https://t.me/BWFMUSICBot_op)."
+                    "𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐂𝐚𝐧'𝐭 𝐏𝐥𝐚𝐲 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 𝐓𝐫𝐜𝐤𝐬 𝐨𝐫 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭𝐬 𝐑𝐞𝐩𝐨𝐫𝐭 [BWFMUSIC SUPPORT](https://t.me/romeomusic_op)."
                 )
             if "track" in url:
                 try:
@@ -349,7 +349,7 @@ async def play_commnd(
                 await rj.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
-                    "There's An Error In The Bot Then Report [BWFMUSIC SUPPORT](https://t.me/BWFMUSICBot_op) AN Error"
+                    "There's An Error In The Bot Then Report [BWFMUSIC SUPPORT](https://t.me/romeomusic_op) AN Error"
                 )
                 return await app.send_message(
                     config.LOG_GROUP_ID,

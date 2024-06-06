@@ -13,7 +13,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         InlineKeyboardButton(
             # text=_["BACK_BUTTON"],
             text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-            url=f"https://t.me/BWFMUSICBot_op",
+            url=f"https://t.me/romeomusic_op",
         ),
         InlineKeyboardButton(
             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
